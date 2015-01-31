@@ -7,8 +7,6 @@ int  main(){
 
 int length=100000, list[100000];
 ifstream read("IntegerArray.txt");
-//int length=13, list[13];
-//ifstream read("in.txt");
 
 for(int i=0; i<length;i++)
 	read >> list[i];
